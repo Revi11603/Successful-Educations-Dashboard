@@ -1,0 +1,20 @@
+[project]
+title = "Successful Educations Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "successful-educations"
+entrypoint = "hello.py"
+
+[branding]
+name = "Educations Analysis"
+logo = "images/successful_educations_logo.png"
+favicon = "images/successful_educations_favicon.ico"
+primaryColor = "#F89613"
+
+[data.successful_educations]
+type = "csv"
+path = "data/successful_educations.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
